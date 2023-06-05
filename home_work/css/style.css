@@ -127,10 +127,11 @@ header {
     font-size: 18px;
     opacity: 0.5;
     color: white;
+    margin-bottom: 50px;
 }
 
 .grid_button button {
-    margin-top: 50px;
+    
     margin-right: 10px;
 
 }
@@ -214,7 +215,7 @@ header {
 }
 
 .flex_item {
-    background-color: #2d2d2d;
+    background-color: #393347;
     border-radius: 10px;
 }
 
@@ -380,3 +381,162 @@ footer {
 
 
 
+/* Адаптация */
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .grid_item img {
+        margin-top: 100px;
+    }
+
+    .grid_foot {
+        margin-top: 140px;
+    }
+
+    .flex_1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        justify-content: center;
+    }
+
+    .flex_item_1 a {
+        display: grid;
+        text-align: center;
+        padding: 0;
+    }
+
+    .flex_item_3 {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 0px;
+        justify-content: center;
+    }
+
+    .flex_item_1 h6 {
+        margin-bottom: 0px;
+    }
+
+    .flex_item_1 h4 {
+        padding: 0;
+    }
+
+
+    .grid_item img {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .burger_menu {
+        display: flex;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .header_button {
+        display: none;
+    }
+
+    .grid_3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid_2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid_1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid_item {
+        text-align: center;
+    }
+
+    .grid_item_2 {
+        text-align: center;
+    }
+
+    .grid_item_3 {
+        text-align: center;
+    }
+
+    .grid_button button {
+        margin-bottom: 0px;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+    .grid_item h1 {
+        font-size: 32px;
+    }
+
+    .grid_item_3 h2 {
+        font-size: 29px;
+    }
+
+    .grid_item_2 h2 {
+        font-size: 29px;
+    }
+
+    .grid_foot {
+        margin-top: 50px;
+    }
+
+    .grid_button button {
+        margin-right: 5px;
+    }
+
+
+    .grid_item_2 h2 {
+        margin-top: 30px;
+    }
+
+    .grid_3 {
+        padding-top: 0px;
+    }
+
+    .grid_item p {
+        font-size: 14px;
+    }
+
+    .grid_item_2 p {
+        font-size: 14px;
+    }
+
+    .grid_item_3 p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+    .grid_foot {
+        padding-bottom: 50px;
+    }
+
+    .grid_item h6 {
+        margin-top: 120px;
+    }
+        
+}
