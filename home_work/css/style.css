@@ -131,7 +131,7 @@ header {
 }
 
 .grid_button button {
-    
+
     margin-right: 10px;
 
 }
@@ -391,6 +391,62 @@ footer {
 }
 
 @media (max-width: 992px) {
+    .grid_item_3 p {
+       
+        font-size: 14px;
+       
+       
+        margin-bottom: 20px;
+    }
+    .grid_item_3 h2 {
+       
+        font-size: 25px;
+        margin-bottom: 40px;
+       
+    }
+    .grid_item_2 p {
+      
+        font-size: 13.5px;
+       
+        margin-bottom: 20px;
+    }
+    .grid_item_2 h2 {
+
+        font-size: 25px;
+
+    }
+
+    .grid_item p {
+
+        font-size: 14px;
+
+    }
+
+    .header_logo h5 {
+
+        font-size: 16px;
+
+    }
+
+    button {
+
+        font-size: 12px;
+    }
+
+    .header_nav a {
+
+        font-size: 12px;
+    }
+
+    .header_button button {
+        margin-left: 50px;
+    }
+
+    .grid_item h1 {
+        font-size: 29px;
+    }
+
+
     .flex {
         flex-wrap: wrap;
     }
@@ -433,7 +489,7 @@ footer {
 
 
     .grid_item img {
-        margin-top: 20px;
+        margin-top: 120px;
         margin-bottom: 40px;
     }
 }
@@ -482,7 +538,10 @@ footer {
         margin-bottom: 0px;
     }
 
+    .grid_item img {
+        margin-top: 20px;
 
+    }
 
 }
 
@@ -531,6 +590,7 @@ footer {
     button {
         font-size: 12px;
     }
+
     .grid_foot {
         padding-bottom: 50px;
     }
@@ -538,5 +598,5 @@ footer {
     .grid_item h6 {
         margin-top: 120px;
     }
-        
+
 }
