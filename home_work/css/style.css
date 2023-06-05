@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .container {
@@ -31,7 +31,7 @@ button {
 
 /* Заголовок */
 header {
-    background: #3a3a3a;
+    background: #332f4e;
 }
 
 .header {
@@ -95,7 +95,7 @@ header {
 
 /* 1 часть */
 .section_1 {
-    background: #2d2d2d;
+    background: #282443;
 }
 
 .grid_1 {
@@ -117,7 +117,7 @@ header {
 
 .grid_item h1 {
     font-weight: 800;
-    font-size: 50px;
+    font-size: 46px;
     margin-bottom: 40px;
     color: white;
 }
@@ -157,7 +157,7 @@ header {
 /* 2 часть */
 
 .section_2 {
-    background: #1E1E1E;
+    background: #0f0d32;
     padding-bottom: 100px;
 }
 
@@ -202,7 +202,7 @@ header {
 
 
 .section_3 {
-    background: #1E1E1E;
+    background: #0f0d32;
     padding-bottom: 100px;
 }
 
@@ -231,7 +231,7 @@ header {
     text-align: center;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 17px;
     color: white;
     padding: 0px 15px 10px;
 }
@@ -239,7 +239,7 @@ header {
 .flex_item p {
     text-align: center;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 11px;
     padding: 0px 15px 20px;
     color: rgb(183, 176, 176);
 }
@@ -254,7 +254,7 @@ header {
 
 /* 4 Часть */
 .section_4 {
-    background: #1E1E1E;
+    background: #0f0d32;
     padding-bottom: 100px;
 }
 
@@ -293,7 +293,7 @@ header {
 /* Конец */
 
 footer {
-    background: #2d2d2d;
+    background: #282443;
     padding: 100px 0;
 }
 
